@@ -1,0 +1,16 @@
+Executable : /Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp
+-B/Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-14
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/flynn/Developer/android-ndk/hello-libs/app/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/flynn/Library/Android/sdk/ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_TOOLCHAIN_FILE=/Users/flynn/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+jvmArgs : 
+

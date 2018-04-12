@@ -1,0 +1,65 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/flynn/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/flynn/Library/Android/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/draco/include -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libhello-libs.so",
+			"toolchain" : "18401784819309856385"
+		},
+		"lib_draco-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_draco",
+			"buildType" : "debug",
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/draco/lib/armeabi-v7a/libdracodec.a",
+			"toolchain" : "18401784819309856385"
+		},
+		"lib_gmath-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gmath",
+			"buildType" : "debug",
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a",
+			"toolchain" : "18401784819309856385"
+		},
+		"lib_gperf-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_gperf",
+			"buildType" : "debug",
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so",
+			"toolchain" : "18401784819309856385"
+		}
+	},
+	"toolchains" : 
+	{
+		"18401784819309856385" : 
+		{
+			"cCompilerExecutable" : "/Users/flynn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/flynn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

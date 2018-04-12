@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/assets"/><source path="/Users/flynn/Developer/android-ndk/hello-libs/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/flynn/Developer/android-ndk/hello-libs/app/src/debug/assets"/></dataSet></merger>

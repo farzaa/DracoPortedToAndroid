@@ -1,0 +1,65 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"hello-libs-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "hello-libs",
+			"buildCommand" : "/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/arm64-v8a --target hello-libs",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/flynn/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/flynn/Library/Android/sdk/ndk-bundle/sysroot  -Dhello_libs_EXPORTS -I/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/include -I/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/include -I/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/draco/include -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/flynn/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -std=c++11 -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/hello-libs.cpp",
+					"workingDirectory" : "/Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/arm64-v8a"
+				}
+			],
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/build/intermediates/cmake/debug/obj/arm64-v8a/libhello-libs.so",
+			"toolchain" : "18401784819309856385"
+		},
+		"lib_draco-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_draco",
+			"buildType" : "debug",
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/draco/lib/arm64-v8a/libdracodec.a",
+			"toolchain" : "18401784819309856385"
+		},
+		"lib_gmath-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_gmath",
+			"buildType" : "debug",
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/arm64-v8a/libgmath.a",
+			"toolchain" : "18401784819309856385"
+		},
+		"lib_gperf-Debug-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "lib_gperf",
+			"buildType" : "debug",
+			"output" : "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/arm64-v8a/libgperf.so",
+			"toolchain" : "18401784819309856385"
+		}
+	},
+	"toolchains" : 
+	{
+		"18401784819309856385" : 
+		{
+			"cCompilerExecutable" : "/Users/flynn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/flynn/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

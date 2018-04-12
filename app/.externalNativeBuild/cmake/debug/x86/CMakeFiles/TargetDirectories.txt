@@ -1,0 +1,3 @@
+/Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/hello-libs.dir

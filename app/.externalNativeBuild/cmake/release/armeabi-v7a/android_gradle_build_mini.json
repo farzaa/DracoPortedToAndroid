@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "lib_gmath-Release-armeabi-v7a": {
+      "artifactName": "lib_gmath",
+      "abi": "armeabi-v7a",
+      "output": "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gmath/lib/armeabi-v7a/libgmath.a"
+    },
+    "lib_gperf-Release-armeabi-v7a": {
+      "artifactName": "lib_gperf",
+      "abi": "armeabi-v7a",
+      "output": "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/gperf/lib/armeabi-v7a/libgperf.so"
+    },
+    "hello-libs-Release-armeabi-v7a": {
+      "artifactName": "hello-libs",
+      "buildCommand": "/Users/flynn/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/flynn/Developer/android-ndk/hello-libs/app/.externalNativeBuild/cmake/release/armeabi-v7a --target hello-libs",
+      "abi": "armeabi-v7a",
+      "output": "/Users/flynn/Developer/android-ndk/hello-libs/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhello-libs.so"
+    },
+    "lib_draco-Release-armeabi-v7a": {
+      "artifactName": "lib_draco",
+      "abi": "armeabi-v7a",
+      "output": "/Users/flynn/Developer/android-ndk/hello-libs/app/src/main/cpp/../../../../distribution/draco/lib/armeabi-v7a/libdracodec.a"
+    }
+  }
+}
